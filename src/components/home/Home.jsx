@@ -7,7 +7,6 @@ import brigante from '../../images/PanoramicBlackWhite.jpg'
 const Home = () => {
     return (
         <>
-        
         <div className=' h-screen relative'>
             <div className="w-full h-full bg-no-repeat md:hidden absolute bg-cover" style={{backgroundImage : `url(${brigante})`}}>
             </div>
