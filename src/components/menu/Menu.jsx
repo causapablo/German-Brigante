@@ -9,7 +9,7 @@ import { GrSoundcloud } from 'react-icons/gr';
 
 const Menu = () => {
     return (
-        <section className='overflow-hidden bg-black'>
+        <section className='overflow-hidden'>
             <div className='flex w-full group'>
                 <div className='grid grid-cols-2 gap-5 mx-auto md:hidden'>
                     <button className='w-full space-x-1 flex justify-between items-center font-extrabold bg-black bg-opacity-90 text-gray-300  hover:shadow-md hover:bg-[#C21010] hover:bg-opacity-10 hover:border-2 hover:border-[#C21010] hover:duration-300' ><AiOutlineMail className='' />BOOKING<IoMdArrowDropright className='' /></button>
