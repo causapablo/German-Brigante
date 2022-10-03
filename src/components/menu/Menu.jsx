@@ -12,7 +12,7 @@ const Menu = () => {
         <section className='overflow-hidden mt-14 md:mt-0'>
             <div className='md:flex md:w-full md:group'>
 
-                <div className='md:hidden flex w-full group mt-44'>
+                <div className='md:hidden flex w-full group mt-16'>
                     <div className='flex group-hover:pause whitespace-nowrap animate-scrolling animation-delay-4 text-gray-300'>
                         <a href="mailto:causapablo@gmail.com"><button className='w-full px-4 space-x-1 flex justify-between items-center font-extrabold md:bg-black bg-opacity-90 md:text-gray-300  hover:shadow-md hover:bg-[#C21010] hover:bg-opacity-10 hover:border-2 hover:border-[#C21010] hover:duration-300' ><AiOutlineMail className='' />BOOKING<IoMdArrowDropright className='' /></button></a>
                         <a href="https://www.google.com.ar" target="_blank" rel="noreferrer"><button className='w-full px-4 space-x-1 flex justify-between items-center font-extrabold md:bg-black bg-opacity-90 md:text-gray-300  hover:shadow-md hover:bg-[#C21010] hover:bg-opacity-10 hover:border-2 hover:border-[#C21010] hover:duration-300'><VscCalendar className='' />TOUR DATES<IoMdArrowDropright className=' ' /></button></a>

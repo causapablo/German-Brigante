@@ -27,7 +27,9 @@ const Portada = () => {
             </div>
             <div className='relative'>
                 <img className='mx-auto md:mt-52' src={Logo} alt='Logo' />
-
+                <div className='rounded-md md:hidden animate-ping-slow w-fit mx-auto mt-12 cursor-pointer text-[#F1BF00] pl-5 font-black tracking-[20px] text-2xl hover:bg-[#C21010] hover:bg-opacity-10 hover:border-2 hover:border-[#C21010]'>
+                    Releases
+                </div>
             </div>
             <div className='md:absolute md:w-full md:bottom-28'>
                 <Menu />

@@ -15,7 +15,7 @@ module.exports = {
       animation: {
         scrolling: 'scrolling 40s linear infinite',
         scrolling2: 'scrolling2 40s linear infinite',
-        'ping-slow': 'ping 3s linear infinite'
+        'ping-slow': 'ping 5s linear infinite'
       },
       keyframes: {
         scrolling: {
