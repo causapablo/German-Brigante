@@ -16,11 +16,11 @@ const Portada = () => {
         setSound(!sound);
     }
     return (
-        <div className='relative h-screen md:z-10 pt-36 bg-red-900'>
+        <div className='relative h-screen md:z-10 pt-36'>
             
             <div className='hidden md:flex justify-end relative'>
-                <GiSpeaker className='absolute text-white font-extrabold text-3xl' visibility={soundValue(sound)} onClick={handleOnClick} />
-                <GiSpeakerOff className='absolute text-white font-extrabold text-3xl' visibility={soundValue(!sound)} onClick={handleOnClick} />
+                <GiSpeaker className='absolute text-white font-extrabold text-3xl right-20' visibility={soundValue(sound)} onClick={handleOnClick} />
+                <GiSpeakerOff className='absolute text-white font-extrabold text-3xl right-20' visibility={soundValue(!sound)} onClick={handleOnClick} />
             </div>
             <div className=''>
                 <img className='mx-auto md:mt-52' src={Logo} alt='Logo' />
