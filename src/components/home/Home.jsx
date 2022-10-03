@@ -7,10 +7,12 @@ import bg from '../../images/GB SET.mp4';
 const Home = () => {
     return (
         <>
-        <div className=' h-screen relative bg-black'>
-            
+        <div className='relative bg-black'>
             <Portada/>
-            <video className='absolute top-0 left-0 resize-none hidden md:inline w-screen' src={bg} muted={true} loop autoPlay></video>
+            <video className='absolute top-0 left-0 right-0 resize-none hidden md:inline ml-auto mr-auto ' src={bg} muted={true} loop autoPlay></video>
+        </div>
+        <div className='h-24 bg-green-900 relative'>
+
         </div>
         </>
         
