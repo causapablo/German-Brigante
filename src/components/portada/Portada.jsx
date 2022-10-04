@@ -16,7 +16,7 @@ const Portada = () => {
         setSound(!sound);
     }
     return (
-        <div className='relative h-screen md:z-10 pt-36 '>
+        <div className='relative h-screen z-10 pt-36 '>
 
             <div className='hidden md:flex justify-end relative'>
                 <GiSpeaker className='absolute text-white font-extrabold text-3xl right-36' visibility={soundValue(sound)} onClick={handleOnClick} />
@@ -27,13 +27,17 @@ const Portada = () => {
             </div>
             <div className='relative'>
                 <img className='mx-auto md:mt-52' src={Logo} alt='Logo' />
-                <div className='rounded-md md:hidden animate-ping-slow w-fit mx-auto mt-12 cursor-pointer text-[#F1BF00] pl-5 font-black tracking-[20px] text-2xl hover:bg-[#C21010] hover:bg-opacity-10 hover:border-2 hover:border-[#C21010]'>
-                    Releases
-                </div>
+
             </div>
             <div className='md:absolute md:w-full md:bottom-28'>
                 <Menu />
             </div>
+
+            <button className='md:hidden absolute left-0 right-0 ml-auto mr-auto text-3xl w-fit px-3 mt-10 py-2 rad font-Montserrat border border-red-700 rounded-md text-[#F1BF00]'>
+                Check my last releases
+            </button>
+
+
 
 
         </div>
