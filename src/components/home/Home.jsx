@@ -10,8 +10,8 @@ const Home = () => {
         <>
             <div className='relative bg-black'>
                 <Portada />
-                <video className='absolute top-0 bottom-0 mt-auto mb-auto left-0 right-0 ml-auto mr-auto resize-none hidden md:inline' src={bg} muted={true} loop autoPlay></video>
-                <img className='absolute top-24 left-0 right-0 ml-auto mr-auto resize-none md:hidden' src={gif} alt="GB Gif" />
+                <video className='absolute top-0 bottom-0 mt-auto mb-auto left-0 right-0 ml-auto mr-auto resize-none' src={bg} muted={true} loop autoPlay></video>
+                
             </div>
             <div className='bg-black relative'>
                 <Youtube/>
