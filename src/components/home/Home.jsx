@@ -10,10 +10,10 @@ const Home = () => {
             <div className='relative bg-black'>
                 <Portada />
                 <video className='absolute top-0 bottom-0 mt-auto mb-auto left-0 right-0 ml-auto mr-auto resize-none' src={bg} muted={true} loop autoPlay></video>
-                
+
             </div>
-            <div className='bg-black relative'>
-                <Youtube/>
+            <div className='bg-black relative h-fit'>
+                <Youtube />
             </div>
         </>
 
