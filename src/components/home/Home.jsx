@@ -2,7 +2,6 @@ import React from 'react';
 
 import Portada from '../portada/Portada';
 import bg from '../../images/GB SET.mp4';
-import gif from '../../images/GBGif.gif';
 import Youtube from '../youtube/Youtube';
 
 const Home = () => {
