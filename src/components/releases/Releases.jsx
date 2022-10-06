@@ -14,7 +14,7 @@ const Releases = () => {
                 <a href="https://www.beatport.com/release/german-brigante-remixes/3785309" target='_blank' rel='noreferrer'>
                     <div className='md:flex h-fit p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border '>
                         <img className='md:w-40' src="https://geo-media.beatport.com/image_size/1400x1400/68576b5b-78e9-48a5-aac3-5e9c268dd409.jpg" alt="new released" />
-                        <div className='pl-6 space-y-6 h-fit'>
+                        <div className='pt-3 md:pt-0 md:pl-6 space-y-6 h-fit'>
                             <div>NOISSIER OCLUM HELIENA GERMAN BRIGANTE</div>
                             <div>GERMAN BRIGANTE REMIXES</div>
                             <div className='text-[#C21010]'>COMING SOON.</div>
@@ -24,7 +24,7 @@ const Releases = () => {
                 <a href="https://www.beatport.com/release/magma/3856875" target='_blank' rel='noreferrer'>
                     <div className='md:flex h-fit p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border'>
                         <img className='md:w-40' src="https://geo-media.beatport.com/image_size/1400x1400/da807b71-f706-4d83-a207-4a82eb1c94bd.jpg" alt="new released" />
-                        <div className='pl-6 space-y-6'>
+                        <div className='pt-3 md:pt-0 md:pl-6 space-y-6'>
                             <div>GERMAN BRIGANTE YAMIL</div>
                             <div>MAGMA</div>
                             <div className='text-[#C21010]'>LAST RELEASE.</div>
