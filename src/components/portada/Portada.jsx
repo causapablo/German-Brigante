@@ -19,7 +19,7 @@ const Portada = () => {
         setSound(!sound);
     }
     return (
-        <div className='relative'>
+        <div className='relative pt-10'>
 
             <video className=' mx-auto' src={bg} muted={true} loop autoPlay></video>
 
