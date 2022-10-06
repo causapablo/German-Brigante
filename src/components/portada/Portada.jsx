@@ -31,7 +31,7 @@ const Portada = () => {
                 <Mobile />
             </div>
             <div className='absolute top-[40%] left-0 right-0 ml-auto mr-auto'>
-                <img className='w-16 md:w-80 mx-auto' src={Logo} alt='Logo' />
+                <img className='w-28 md:w-80 mx-auto' src={Logo} alt='Logo' />
             </div>
             <div className='md:absolute md:w-full md:bottom-[15%]'>
                 <Menu />
