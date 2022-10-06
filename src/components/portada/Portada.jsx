@@ -4,6 +4,7 @@ import Menu from '../menu/Menu';
 import { GiSpeaker, GiSpeakerOff } from 'react-icons/gi';
 import Logo from '../../images/Logo.png'
 import Mobile from '../mobile/Mobile';
+import bg from '../../images/GB SET.mp4'
 
 const Portada = () => {
     let [sound, setSound] = useState(true);
@@ -18,30 +19,23 @@ const Portada = () => {
         setSound(!sound);
     }
     return (
-        <div className='relative h-screen z-10 pt-36 '>
+        <div className='relative'>
+
+            <video className=' mx-auto' src={bg} muted={true} loop autoPlay></video>
 
             <div className='hidden md:flex justify-end relative'>
                 <GiSpeaker className='absolute text-white font-extrabold text-3xl right-36' visibility={soundValue(sound)} onClick={handleOnClick} />
                 <GiSpeakerOff className='absolute text-white font-extrabold text-3xl right-36' visibility={soundValue(!sound)} onClick={handleOnClick} />
             </div>
-            <div className='rounded-md hidden md:inline animate-ping-slow  w-fit mt-16 pl-4 md:w-fit mx-auto md: md:absolute md:z-10 md:[writing-mode:vertical-lr] md:cursor-pointer md:pt-5 md:top-[25%] md:right-7 md:px-1 text-[#F1BF00] text-center font-black tracking-[20px] text-2xl hover:bg-[#C21010] hover:bg-opacity-10 hover:border-2 hover:border-[#C21010]'>
-                Releases
+            <div className='absolute top-[10%] w-full md:hidden'>
+                <Mobile />
             </div>
-            <div className='absolute w-full md:hidden'>
-                <Mobile/>
+            <div className='absolute top-[40%] left-0 right-0 ml-auto mr-auto'>
+                <img className='w-48 md:w-80 mx-auto' src={Logo} alt='Logo' />
             </div>
-            <div className='relative'>
-                <img className='w-48 md:w-80 mt-56 mx-auto md:mt-52 2xl:mt-64' src={Logo} alt='Logo' />
-            </div>
-            <div className='md:absolute md:w-full md:bottom-28'>
+            <div className='md:absolute md:w-full md:bottom-[15%]'>
                 <Menu />
             </div>
-
-            
-
-
-
-
         </div>
     );
 };

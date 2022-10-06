@@ -12,7 +12,7 @@ const Releases = () => {
             </div>
             <div className='grid gap-2 lg:grid lg:grid-cols-2 lg:gap-3'>
                 <a href="https://www.beatport.com/release/german-brigante-remixes/3785309" target='_blank' rel='noreferrer'>
-                    <div className='flex h-48 p-4 text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border '>
+                    <div className='flex h-48 p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border '>
                         <img className='w-40' src="https://geo-media.beatport.com/image_size/1400x1400/68576b5b-78e9-48a5-aac3-5e9c268dd409.jpg" alt="new released" />
                         <div className='pl-6 space-y-6 h-fit'>
                             <div>NOISSIER OCLUM HELIENA GERMAN BRIGANTE</div>
@@ -22,7 +22,7 @@ const Releases = () => {
                     </div>
                 </a>
                 <a href="https://www.beatport.com/release/magma/3856875" target='_blank' rel='noreferrer'>
-                    <div className='flex h-48 p-4 text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border'>
+                    <div className='flex h-48 p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border'>
                         <img className='w-40' src="https://geo-media.beatport.com/image_size/1400x1400/da807b71-f706-4d83-a207-4a82eb1c94bd.jpg" alt="new released" />
                         <div className='pl-6 space-y-6'>
                             <div>GERMAN BRIGANTE YAMIL</div>
