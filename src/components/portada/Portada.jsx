@@ -1,23 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Menu from '../menu/Menu';
 
-import { GiSpeaker, GiSpeakerOff } from 'react-icons/gi';
+
 import Logo from '../../images/Logo.png'
 import Mobile from '../mobile/Mobile';
 import bg from '../../images/GB SET.mp4'
 
 const Portada = () => {
-    let [sound, setSound] = useState(true);
-    const soundValue = (sound) => {
-        let speaker = 'visible';
-        if (sound) {
-            speaker = 'hidden';
-        }
-        return speaker;
-    };
-    const handleOnClick = () => {
-        setSound(!sound);
-    }
+    
     return (
         <div className='relative'>
 
