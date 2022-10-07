@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineYoutube } from 'react-icons/ai'
 const Youtube = () => {
     return (
-        <div className='container mx-auto py-10 h-fit bg-black'>
+        <div className='container mx-auto py-10 h-fit'>
             <div className='text-gray-300 flex items-center text-4xl font-extrabold px-10'>
                 <AiOutlineYoutube />
                 <h1 className='ml-2'>Youtube</h1>
