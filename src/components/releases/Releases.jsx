@@ -2,7 +2,7 @@ import React from 'react';
 import { SiSemanticrelease } from 'react-icons/si'
 const Releases = () => {
     return (
-        <div className='container mx-auto flex flex-col space-y-3 px-10 h-fit'>
+        <div className='container mx-auto flex flex-col space-y-3 px-10 h-fit py-10'>
             <div className='text-gray-300 text-2xl flex items-center md:text-4xl font-extrabold px-5'>
                 <SiSemanticrelease />
                 <h1 className='ml-2'>Lastest Releases</h1>

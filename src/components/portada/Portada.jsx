@@ -19,14 +19,15 @@ const Portada = () => {
         setSound(!sound);
     }
     return (
-        <div className='relative pt-10'>
+        <div className='relative'>
 
-            <video className=' mx-auto' src={bg} muted={true} loop autoPlay></video>
 
-            <div className='hidden md:flex justify-end relative'>
-                <GiSpeaker className='absolute text-white font-extrabold text-3xl right-36' visibility={soundValue(sound)} onClick={handleOnClick} />
-                <GiSpeakerOff className='absolute text-white font-extrabold text-3xl right-36' visibility={soundValue(!sound)} onClick={handleOnClick} />
-            </div>
+            <video className='w-full h-full' src={bg} muted={true} loop autoPlay></video>
+
+
+
+
+           
             <div className='absolute top-[10%] w-full md:hidden'>
                 <Mobile />
             </div>
