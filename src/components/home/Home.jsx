@@ -6,7 +6,9 @@ import Footer from '../footer/Footer';
 import Spotify from '../spotify/Spotify';
 import Touterdates from '../dates/Touterdates';
 import bgreleases from '../../images/Manitox.png';
-import camino from '../../images/camino.png';
+import selectas from '../../images/selectas.png';
+import Soundcloud from '../soundcloud/Soundcloud';
+import yamil from '../../images/yamil.png'
 
 const Home = () => {
     return (
@@ -15,23 +17,23 @@ const Home = () => {
                 <Portada />
             </div>
             <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${bgreleases})` }}>
-                <div className='bg-black opacity-80'>
+                <div className='bg-black opacity-80 py-12'>
                     <Releases />
                     <Spotify />
                 </div>
             </div>
-            
-            <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${camino})` }}>
-                <div className='bg-black opacity-60'>
-                    
+            <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${yamil})` }}>
+                <div className='bg-black opacity-90 py-12'>
+                    <Soundcloud />
+
                 </div>
             </div>
-            <div className='h-fit bg-[#256D85] brightness-75'>
-                <div className=''>
+            <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
+                <div className='bg-black opacity-80 py-12'>
                     <Youtube />
                 </div>
             </div>
-            <div className='h-fit bg-black'>
+            <div className='h-fit hidden bg-black'>
                 <Touterdates />
             </div>
             <div className='h-fit bg-black'>
