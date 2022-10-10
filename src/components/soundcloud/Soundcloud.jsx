@@ -25,7 +25,7 @@ const Soundcloud = () => {
             <div className='px-5 py-5 md:px-0'>
                 <div className='container bg-white mx-auto h-[1px]'></div>
             </div>
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid mx-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 <div>
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1358200579&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" title='Brigante'></iframe><div style={divStyle1}><a href="https://soundcloud.com/deephousemelodic" title="MELODIC.DEEP.HOUSE" rel="noreferrer" target="_blank" style={divStyle2}>MELODIC.DEEP.HOUSE</a> · <a href="https://soundcloud.com/deephousemelodic/new-chapter-091-podcast-mdh-by-german-brigante" rel="noreferrer" title="[NEW CHAPTER 091] - Podcast M.D.H. by German Brigante" target="_blank" style={divStyle2}>[NEW CHAPTER 091] - Podcast M.D.H. by German Brigante</a></div>
                 </div>
