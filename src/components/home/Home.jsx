@@ -16,8 +16,8 @@ const Home = () => {
             <div className=''>
                 <Portada />
             </div>
-            <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${bgreleases})` }}>
-                <div className='bg-black opacity-80 py-12'>
+            <div className='h-fit bg-no-repeat bg-cover bg-center ' style={{ backgroundImage: `url(${bgreleases})` }}>
+                <div className='bg-black opacity-80 py-12 '>
                     <Releases />
                     <Spotify />
                 </div>

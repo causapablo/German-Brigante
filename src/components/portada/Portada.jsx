@@ -12,7 +12,7 @@ const Portada = () => {
         <div className='relative'>
 
 
-            <video className='w-full h-full' src={bg} muted={true} loop autoPlay></video>
+            <video className='w-screen -mt-[5%]' src={bg} muted={true} loop autoPlay></video>
 
 
 
