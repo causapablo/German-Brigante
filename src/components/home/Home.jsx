@@ -25,12 +25,12 @@ const Home = () => {
             <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${yamil})` }}>
                 <div className='bg-black opacity-90 py-12'>
                     <Soundcloud />
-
+                    <Youtube />
                 </div>
             </div>
-            <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
+            <div className='h-fit hidden bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
                 <div className='bg-black opacity-80 py-12'>
-                    <Youtube />
+
                 </div>
             </div>
             <div className='h-fit hidden bg-black'>

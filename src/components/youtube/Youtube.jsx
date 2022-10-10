@@ -10,11 +10,9 @@ const Youtube = () => {
             <div className='px-5 py-5 md:px-0'>
                 <div className='container bg-white mx-auto h-[1px]'></div>
             </div>
-            <div className='grid justify-items-center md:grid-cols-2 xl:grid-cols-4 gap-3 h-fit'>
-                <iframe className='md:w-[375px] md:h-[300px]' src="https://www.youtube.com/embed/g-kTOs_10SM" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <iframe className='md:w-[375px] md:h-[300px]' src="https://www.youtube.com/embed/VGWy0Uq3MLQ" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <iframe className='md:w-[375px] md:h-[300px]' src="https://www.youtube.com/embed/8UFNs3_-v34" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <iframe className='md:w-[375px] md:h-[300px]' src="https://www.youtube.com/embed/dWxbCJ48uK4" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <div className='grid grid-cols-1 justify-items-center lg:grid-cols-2 gap-3'>
+                <iframe className='h-[300px] lg:w-full lg:h-[500px]' src="https://www.youtube.com/embed/MPhOFyFA3Yw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className='h-[300px] lg:w-full lg:h-[500px]' src="https://www.youtube.com/embed/Y1oHYgaCRHI" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
 
