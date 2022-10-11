@@ -9,6 +9,7 @@ import bgreleases from '../../images/Manitox.png';
 import selectas from '../../images/selectas.png';
 import Soundcloud from '../soundcloud/Soundcloud';
 import yamil from '../../images/yamil.png'
+import Manitox from '../manitox/Manitox';
 
 const Home = () => {
     return (
@@ -31,7 +32,7 @@ const Home = () => {
                 </div>
                 <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
                     <div className='bg-black opacity-80 py-12'>
-
+                        <Manitox/>
                     </div>
                 </div>
                 <div className='h-fit hidden bg-black'>

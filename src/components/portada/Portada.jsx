@@ -12,10 +12,10 @@ const Portada = () => {
     return (
         <div className='relative'>
 
-            <div className='absolute top-[13%] w-full md:hidden'>
+            <div className='absolute top-[5%] w-full md:hidden'>
                 <MobileTop/>
             </div>
-            <video className='w-screen -mt-[5%]' src={bg} muted={true} loop autoPlay></video>
+            <video className='w-screen h-full' src={bg} muted={true} loop autoPlay></video>
             
             <div className='absolute bottom-1 w-full md:hidden'>
                 <MobileBottom/>
@@ -27,7 +27,7 @@ const Portada = () => {
             <div className='absolute top-[40%] left-0 right-0 ml-auto mr-auto'>
                 <img className='w-28 md:w-80 mx-auto' src={Logo} alt='Logo' />
             </div>
-            <div className='md:absolute md:w-full md:bottom-0'>
+            <div className='md:absolute md:w-full md:bottom-[18%]'>
                 <Menu />
             </div>
         </div>
