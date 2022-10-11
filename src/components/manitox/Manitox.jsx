@@ -25,12 +25,8 @@ const Manitox = () => {
             <div className='flex text-5xl sm:text-9xl justify-around py-4'>
                 <a href="https://www.beatport.com/label/manitox/64329" target="_blank" rel="noreferrer"><SiBeatport className='text-[#01FF95]'/></a>
                 <a href="https://soundcloud.com/manitoxlabel" target="_blank" rel="noreferrer"><GrSoundcloud className='text-[#ff8800]'/></a>
-                
                 <a href="https://open.spotify.com/artist/5x7ysZK2PjwOeCM6MtjPPF?si=KTYI8DYbRfewwNW9lRI--g" target="_blank" rel="noreferrer"><BsSpotify className='text-[#38E54D]'/></a>
-
             </div>
-
-
         </div>
     );
 };
