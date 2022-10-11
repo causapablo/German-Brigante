@@ -13,31 +13,33 @@ import yamil from '../../images/yamil.png'
 const Home = () => {
     return (
         <>
-            <div className=''>
-                <Portada />
-            </div>
-            <div className='h-fit bg-no-repeat bg-cover bg-center ' style={{ backgroundImage: `url(${bgreleases})` }}>
-                <div className='bg-black opacity-80 py-12 '>
-                    <Releases />
-                    <Spotify />
+            <div className='bg-black'>
+                <div className='h-full w-full bg-black'>
+                    <Portada />
                 </div>
-            </div>
-            <div className='h-fit bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${yamil})` }}>
-                <div className='bg-black opacity-90 py-12'>
-                    <Soundcloud />
-                    <Youtube />
+                <div className='h-full bg-no-repeat bg-cover bg-center ' style={{ backgroundImage: `url(${bgreleases})` }}>
+                    <div className='bg-black opacity-80 h-full '>
+                        <Releases />
+                        <Spotify />
+                    </div>
                 </div>
-            </div>
-            <div className='h-fit hidden bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
-                <div className='bg-black opacity-80 py-12'>
+                <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${yamil})` }}>
+                    <div className='bg-black opacity-90 h-full'>
+                        <Soundcloud />
+                        <Youtube />
+                    </div>
+                </div>
+                <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
+                    <div className='bg-black opacity-80 py-12'>
 
+                    </div>
                 </div>
-            </div>
-            <div className='h-fit hidden bg-black'>
-                <Touterdates />
-            </div>
-            <div className='h-fit bg-black'>
-                <Footer />
+                <div className='h-fit hidden bg-black'>
+                    <Touterdates />
+                </div>
+                <div className='h-full bg-black'>
+                    <Footer />
+                </div>
             </div>
 
 

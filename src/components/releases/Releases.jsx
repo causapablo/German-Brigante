@@ -12,7 +12,7 @@ const Releases = () => {
             </div>
             <div className='grid gap-2 lg:grid lg:grid-cols-2 lg:gap-3'>
                 <a href="https://www.beatport.com/release/german-brigante-remixes/3785309" target='_blank' rel='noreferrer'>
-                    <div className='md:flex h-fit p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border '>
+                    <div className='md:flex h-fit p-4 lg:text-base xl:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border '>
                         <img className='md:w-40' src="https://geo-media.beatport.com/image_size/1400x1400/68576b5b-78e9-48a5-aac3-5e9c268dd409.jpg" alt="new released" />
                         <div className='pt-3 md:pt-0 md:pl-6 space-y-6 h-fit'>
                             <div>NOISSIER OCLUM HELIENA GERMAN BRIGANTE</div>
