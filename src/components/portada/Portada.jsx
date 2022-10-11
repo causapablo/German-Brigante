@@ -12,11 +12,11 @@ const Portada = () => {
     return (
         <div className='relative'>
 
+            
+            <video className='w-screen h-full' src={bg} muted={true} loop autoPlay></video>
             <div className='absolute top-[5%] w-full md:hidden'>
                 <MobileTop/>
             </div>
-            <video className='w-screen h-full' src={bg} muted={true} loop autoPlay></video>
-            
             <div className='absolute bottom-1 w-full md:hidden'>
                 <MobileBottom/>
             </div>
