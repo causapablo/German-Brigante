@@ -6,7 +6,7 @@ import Footer from '../footer/Footer';
 import Spotify from '../spotify/Spotify';
 import Touterdates from '../dates/Touterdates';
 import bgreleases from '../../images/Manitox.png';
-import selectas from '../../images/selectas.png';
+import manitox from '../../images/ManitoxBackground.png';
 import Soundcloud from '../soundcloud/Soundcloud';
 import yamil from '../../images/yamil.png'
 import Manitox from '../manitox/Manitox';
@@ -30,7 +30,7 @@ const Home = () => {
                         <Youtube />
                     </div>
                 </div>
-                <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${selectas})` }}>
+                <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${manitox})` }}>
                     <div className='bg-black opacity-80 py-12'>
                         <Manitox/>
                     </div>
