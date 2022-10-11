@@ -9,7 +9,7 @@ const Manitox = () => {
         <div className='container mx-auto py-10 h-fit'>
             <div className='text-gray-300 flex items-center text-4xl font-extrabold px-10'>
                 <RiRecordMailLine />
-                <h1 className='ml-2'>Manitox Record Label</h1>
+                <h1 className='ml-2'>Manitox Record</h1>
             </div>
             <div className='px-5 py-5 md:px-0'>
                 <div className='container bg-white mx-auto h-[1px]'></div>
