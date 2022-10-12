@@ -20,7 +20,7 @@ const Manitox = () => {
                 </p>
             </div>
             <div className='py-5'>
-                <img className='mx-auto w-[15%]' src={logo} alt="Manitox Logo" />
+                <img className='mx-auto' src={logo} alt="Manitox Logo" />
             </div>
             <div className='flex text-5xl sm:text-6xl justify-around py-4'>
                 <a href="https://www.beatport.com/label/manitox/64329" target="_blank" rel="noreferrer"><SiBeatport className='text-[#01FF95]'/></a>
