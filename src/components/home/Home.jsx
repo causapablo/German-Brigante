@@ -25,13 +25,13 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${yamil})` }}>
-                    <div className='bg-black opacity-90 h-full'>
+                    <div className='bg-black opacity-[0.85] h-full'>
                         <Soundcloud />
                         <Youtube />
                     </div>
                 </div>
                 <div className='h-full bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${manitox})` }}>
-                    <div className='bg-black opacity-80 py-12'>
+                    <div className='bg-black opacity-75 py-12'>
                         <Manitox/>
                     </div>
                 </div>
