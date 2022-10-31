@@ -17,7 +17,7 @@ const Releases = () => {
                         <div className='pt-3 md:pt-0 md:pl-6 space-y-6 h-fit'>
                             <div>NOISSIER OCLUM HELIENA GERMAN BRIGANTE</div>
                             <div>GERMAN BRIGANTE REMIXES</div>
-                            <div className='text-[#C21010]'>COMING SOON.</div>
+                            <div className='text-[#C21010] animate-pulse'>LAST RELEASE.</div>
                         </div>
                     </div>
                 </a>
@@ -27,7 +27,7 @@ const Releases = () => {
                         <div className='pt-3 md:pt-0 md:pl-6 space-y-6'>
                             <div>GERMAN BRIGANTE YAMIL</div>
                             <div>MAGMA</div>
-                            <div className='text-[#C21010]'>LAST RELEASE.</div>
+                            <div className='text-[#C21010] animate-pulse'>LAST RELEASE.</div>
                         </div>
                     </div>
                 </a>
