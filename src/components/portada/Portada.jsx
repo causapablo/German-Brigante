@@ -13,7 +13,7 @@ const Portada = () => {
         <div className='relative'>
 
             
-            <video className='w-screen h-full' src={bg} muted={true} loop autoPlay></video>
+            <video autoPlay playsInline className='w-screen h-full' src={bg} muted={true} loop ></video>
             <div className='absolute top-[5%] w-full md:hidden'>
                 <MobileTop/>
             </div>
