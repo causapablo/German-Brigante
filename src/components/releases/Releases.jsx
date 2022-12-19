@@ -11,6 +11,16 @@ const Releases = () => {
                 <div className='container bg-white mx-auto h-[1px]'></div>
             </div>
             <div className='grid gap-2 lg:grid lg:grid-cols-2 lg:gap-3'>
+                <a href="https://www.beatport.com/release/dharma/3951883" target='_blank' rel='noreferrer'>
+                    <div className='md:flex h-fit p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border'>
+                        <img className='md:w-40' src="https://geo-media.beatport.com/image_size/1400x1400/a02a4039-7e87-426a-9ca2-10ad0875e9c7.jpg" alt="new released" />
+                        <div className='pt-3 md:pt-0 md:pl-6 space-y-6'>
+                            <div>GERMAN BRIGANTE NAMITO RODRIGO GALLARDO</div>
+                            <div>DHARMA</div>
+                            <div className='text-[#C21010] animate-pulse'>LAST RELEASE.</div>
+                        </div>
+                    </div>
+                </a>
                 <a href="https://www.beatport.com/release/german-brigante-remixes/3785309" target='_blank' rel='noreferrer'>
                     <div className='md:flex h-fit p-4 lg:text-base xl:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border '>
                         <img className='md:w-40' src="https://geo-media.beatport.com/image_size/1400x1400/68576b5b-78e9-48a5-aac3-5e9c268dd409.jpg" alt="new released" />
@@ -21,16 +31,7 @@ const Releases = () => {
                         </div>
                     </div>
                 </a>
-                <a href="https://www.beatport.com/release/magma/3856875" target='_blank' rel='noreferrer'>
-                    <div className='md:flex h-fit p-4 lg:text-xl font-bold bg-black bg-opacity-90 text-gray-300 hover:border-[#C21010] hover:border'>
-                        <img className='md:w-40' src="https://geo-media.beatport.com/image_size/1400x1400/da807b71-f706-4d83-a207-4a82eb1c94bd.jpg" alt="new released" />
-                        <div className='pt-3 md:pt-0 md:pl-6 space-y-6'>
-                            <div>GERMAN BRIGANTE YAMIL</div>
-                            <div>MAGMA</div>
-                            <div className='text-[#C21010] animate-pulse'>LAST RELEASE.</div>
-                        </div>
-                    </div>
-                </a>
+                
             </div>
         </div>
     );
