@@ -20,7 +20,7 @@ const Footer = () => {
             <div className='h-[1px] bg-white container mx-auto w-1/2'>
 
             </div>
-            <h1 className='text-[8px] md:text-[10px]'>Designed by Augustus Pablo</h1>
+            <h1 className='text-[8px] md:text-[10px]'>Designed by <a className='text-[#2C74B3]' href="https://www.linkedin.com/in/pablocausa/" target="_blank" rel="noreferrer">Augustus Pablo</a> </h1>
         </div>
     );
 };
